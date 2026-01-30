@@ -46,7 +46,9 @@
     background: white;
     padding: 8px 18px;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 15px;
+    cursor: pointer;
+
   }
   
   /* USED */
