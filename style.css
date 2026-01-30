@@ -1,60 +1,69 @@
-body {
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
     margin: 0;
     font-family: 'Science Gothic', sans-serif;
     background: black;
   }
   
   .wrapper {
-    max-width: 820px;
-    margin: 0 auto;
+    width: 760px;
+    margin: 60px auto;
+    background: white;
   }
   
-  .hero,
-.products,
-.used,
-.footer {
-  background: white;
-  text-align: center;
-  border-top: 10px solid black;
-}
-
-.hero {
-  border-top: none;
-  padding: 100px 0;
-}
-
-.hero h1 {
-  font-size: 60px;
-}
-
-.products {
-    background: #e6e6e6;
+  /* HERO */
+  .hero {
+    padding: 110px 0;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 58px;
+  }
+  
+  
+  /* PRODUCTS */
+  .products {
+    border-top: 12px solid black;
+    border-bottom: 12px solid black;
+    background: #e5e5e5;
     display: flex;
     justify-content: space-around;
     padding: 70px 0;
+    text-align: center;
   }
   
-.product h2 {
+  .product h2 {
     font-size: 26px;
     margin-bottom: 20px;
   }
   
-button {
+  button {
     border: 3px solid black;
     background: white;
     padding: 8px 18px;
     font-weight: bold;
-  }
- 
-.used {
-    padding: 120px 0;
+    font-size: 14px;
   }
   
-.used h3 {
-    font-size: 42px;
+  /* USED */
+  .used {
+    padding: 130px 0;
+    text-align: center;
   }
   
-.footer {
+  .used h3 {
+    font-size: 44px;
+    line-height: 1.2;
+  }
+  
+  /* FOOTER */
+  .footer {
+    border-top: 12px solid black;
     padding: 60px 0;
+    text-align: center;
   }
   
