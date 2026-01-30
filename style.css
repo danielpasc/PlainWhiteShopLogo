@@ -9,3 +9,20 @@ body {
     margin: 0 auto;
   }
   
+  .hero,
+.products,
+.used,
+.footer {
+  background: white;
+  text-align: center;
+  border-top: 10px solid black;
+}
+
+.hero {
+  border-top: none;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 60px;
+}
