@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    font-family: 'Science Gothic', sans-serif;
+    background: black;
+  }
+  
+  .wrapper {
+    max-width: 820px;
+    margin: 0 auto;
+  }
+  
