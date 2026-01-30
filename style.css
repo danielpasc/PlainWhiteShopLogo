@@ -26,3 +26,23 @@ body {
 .hero h1 {
   font-size: 60px;
 }
+
+.products {
+    background: #e6e6e6;
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 0;
+  }
+  
+  .product h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    border: 3px solid black;
+    background: white;
+    padding: 8px 18px;
+    font-weight: bold;
+  }
+  
